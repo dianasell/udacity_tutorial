@@ -1,7 +1,7 @@
 describe('Address Book', function() {
-    interface('should beable to add a contact', function() {
+    interface('should be able to add a contact', function() {
         var addressBook = new AddressBook(),
-        thisContact = new thisContact();
+            thisContact = new Contact();
 
         addressBook.addContact(thisContact);
 
